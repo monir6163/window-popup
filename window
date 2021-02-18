@@ -1,0 +1,7 @@
+<a onclick="openWindow()" class="btn btn-outline-pink" style = "float: right">Add New Category <i class="fa fa-plus"></i></a>
+<script>
+    function openWindow(){
+      window.open("<?php echo site url();?>AddItems?add=N", "myWindow", 'width=1000, height=500');
+      window.close();
+    }
+  </script>
